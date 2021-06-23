@@ -34,7 +34,7 @@ void tempTest()
 
 void main()
 {
-	tempTest();
+	//tempTest();
 	//testSort();
 	//std::string s = "12324";
 	//int num = subStringToInt(s, 1, 3);
@@ -42,4 +42,8 @@ void main()
 	//std::cout << "string " << s << " to num " << num << std::endl;
 
 	//std::cout << "main end" << std::endl;
+	//std::vector<int>stones = {0,1,3,5,6,8,12,17};
+	//canCross(stones);
+	std::vector<std::string> ret = letterCombinations("");
+	return;
 }
