@@ -1,7 +1,8 @@
 ﻿#include <iostream>
 
 #include "Sequence/StringToFibonacciSequence.h"
-
+#include "StringOperation/StringOperation.h"
+#include "Tree/Tree.h"
 
 void testSort()
 {
@@ -32,6 +33,14 @@ void tempTest()
 	}
 }
 
+void testTree() 
+{
+	Tree tree;
+	Tree::TreeNode* root = tree.deserialize(std::string("[1]"));
+	std::string serialStr = tree.serialize(root);
+
+}
+
 void main()
 {
 	//tempTest();
@@ -44,6 +53,17 @@ void main()
 	//std::cout << "main end" << std::endl;
 	//std::vector<int>stones = {0,1,3,5,6,8,12,17};
 	//canCross(stones);
-	std::vector<std::string> ret = letterCombinations("");
+	//StringOperation sop;
+	//
+	//std::string ret=sop.convertToTitle(2147483647);
+	int size = 0;
+	uint8_t* pointr = new uint8_t[size];
+	if (pointr)
+	{
+		*pointr = (uint64_t)-1;
+		uint64_t t = *pointr;
+		*pointr = (uint64_t)2;
+	}
+	testTree();
 	return;
 }

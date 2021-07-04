@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="Sequence\StringToFibonacciSequence.cpp" />
     <ClCompile Include="StringOperation\StringOperation.cpp" />
+    <ClCompile Include="Tree\Tree.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sequence\StringToFibonacciSequence.h" />
     <ClInclude Include="StringOperation\StringOperation.h" />
+    <ClInclude Include="Tree\Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,3 +36,7 @@ int hammingWeight(uint32_t n);
 
 std::string convertNumsToStr(std::vector<uint8_t>numsQue, std::string digits);
 std::vector<std::string> letterCombinations(std::string digits);
+
+int numBusesToDestination(std::vector<std::vector<int>>& routes, int source, int target);
+
+int maxIceCream(std::vector<int>& costs, int coins);

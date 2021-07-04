@@ -45,6 +45,18 @@ std::vector<int> StringOperation::findNumOfValidWords(std::vector<std::string>& 
 	return ret;
 }
 
+std::string StringOperation::convertToTitle(int columnNumber)
+{
+	std::string ret;
+	while (columnNumber--)
+	{
+		ret += columnNumber % 26 + 'A';
+		columnNumber /=26;
+	}
+	std::reverse(ret.begin(), ret.end());
+	return ret;
+}
+
 //int StringOperation::genarateHashCodeFromString(std::string str)
 //{
 //    int hashNUmber = 0;

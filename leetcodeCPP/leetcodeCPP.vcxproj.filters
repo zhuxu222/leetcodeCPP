@@ -19,6 +19,9 @@
     <Filter Include="Sequence">
       <UniqueIdentifier>{432953d3-dd37-41a7-b2f8-2259c0a4f86b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{8883ba1f-3dc1-4e42-ad12-4fe690ace0cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StringOperation\StringOperation.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="Sequence\StringToFibonacciSequence.cpp">
       <Filter>Sequence</Filter>
     </ClCompile>
+    <ClCompile Include="Tree\Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringOperation\StringOperation.h">
@@ -37,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="Sequence\StringToFibonacciSequence.h">
       <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Tree.h">
+      <Filter>Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

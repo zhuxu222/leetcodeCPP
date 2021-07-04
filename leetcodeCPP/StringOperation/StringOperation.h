@@ -77,4 +77,6 @@ public:
 	}
 
     std::vector<int> findNumOfValidWords(std::vector<std::string>& words, std::vector<std::string>& puzzles);
+
+    std::string convertToTitle(int columnNumber);
 };

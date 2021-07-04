@@ -227,3 +227,31 @@ std::vector<std::string> letterCombinations(std::string digits) {
 	return ret;
 }
 
+int numBusesToDestination(std::vector<std::vector<int>>& routes, int source, int target)
+{
+	std::map<int, std::set<int>>mapOfIndexOfVector;
+	for (size_t i = 0; i < routes.size(); i++)
+	{
+		for (size_t j = 0; j < routes[i].size(); j++)
+		{
+			mapOfIndexOfVector[routes[i][j]].insert(i);
+		}
+	}
+	std::stack<int>stackOfIndex;
+	int numOfLastLevelElements = 0;
+	std::set<int>setOfUniqueElement;
+	std::set<int>setOfUniqueVector;
+	stackOfIndex.push(source);
+	numOfLastLevelElements = 1;
+	setOfUniqueElement.insert(source);
+	//do{
+
+	//} while ();
+	return 0;
+}
+
+int maxIceCream(std::vector<int>& costs, int coins)
+{
+	return 0;
+}
+
